@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+	<acl>
+		<resources>
+			<resource id="Magento_Backend::admin">
+				<resource id="Syncitgroup_Sgform::sgform" sortOrder="10" title="sgform">
+					<resource id="Syncitgroup_Sgform::syncitgroup_sgform_sgform" sortOrder="10" title="index index"/>
+				</resource>
+				<resource id="Syncitgroup_Sgform::Sgform" sortOrder="10" title="Sgform">
+					<resource id="Syncitgroup_Sgform::Sgform_save" sortOrder="10" title="Save Sgform"/>
+					<resource id="Syncitgroup_Sgform::Sgform_delete" sortOrder="20" title="Delete Sgform"/>
+					<resource id="Syncitgroup_Sgform::Sgform_update" sortOrder="30" title="Update Sgform"/>
+					<resource id="Syncitgroup_Sgform::Sgform_view" sortOrder="40" title="View Sgform"/>
+				</resource>
+			</resource>
+		</resources>
+	</acl>
+</config>

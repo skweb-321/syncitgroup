@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+	<event name="syncit_group_form">
+		<observer instance="Syncitgroup\Sgform\Observer\Frontend\Syncit\Sgform" name="syncitgroup_sgform_observer_frontend_syncit_sgform_syncit_sgform"/>
+	</event>
+</config>
